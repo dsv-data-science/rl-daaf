@@ -46,6 +46,7 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+.ruff_cache/
 
 # Translations
 *.mo
@@ -70,6 +71,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+notebooks/
 
 # pyenv
 .python-version
@@ -111,3 +113,8 @@ site/
 
 # Misc
 misc
+out
+
+# Local files
+# can override explicitly
+playground/
